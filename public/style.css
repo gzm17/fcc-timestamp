@@ -1,0 +1,64 @@
+/* styles */
+/* called by your view template */
+
+/* You might want to try something fancier: */
+/* less: http://lesscss.org/ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 25px;
+}
+
+h1 {
+  font-weight: bold;
+  color: black;
+}
+
+#bar {
+  height: 200px;
+  width: 5px;
+  background-color: lightgrey;
+}
+
+#notes {
+  margin-left: 20px;
+}
+
+.row {
+  display: inline-flex;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.usage {
+  background-color: #ffe7e6;
+  color: red;
+}
+
+p {
+  max-width: 600px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
+
+footer > a {
+  color: #BBBBBB;
+}
+
+.nicejob {
+  text-decoration: line-through;
+}
